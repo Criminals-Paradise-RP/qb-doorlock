@@ -8,7 +8,7 @@ Config.FallbackDistance = 3.0 -- Distance to fall back on when it is not set
 Config.EnableSounds = true -- Enable sounds when unlocking/locking doors (doors triggered by scripts can have the sound manually disabled)
 Config.EnableAnimation = true -- Enable the animation when unlocking/locking doors (doors triggered by scripts can have the animation manually disabled)
 Config.SaveDoorDialog = true -- Saves the door dialogue popup between door saves
-Config.PersistentDoorStates = false -- Persists the door state between server restarts
+Config.PersistentDoorStates = true -- Persists the door state between server restarts
 Config.PersistentSaveInternal = 60000 -- How often door states are saved to the file system, in miliseconds. 
 
 Config.ChangeColor = false -- Change the color of the box of the popup text based on if it is locked or not
